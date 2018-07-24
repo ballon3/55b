@@ -1,0 +1,17 @@
+ Mon 7/23
+
+1. Josoeph Guided navigation demo by friday,
+today demonstrated the action.
+ - 6D.ai api integration (occlusion)
+
+2. Ryan User API development 
+
+3. Melissa UX/UI - interactions, and interface development
+
+4. Veronica - take Invision base UI and develope IOS unity Version that 
+    replicates the primary experience. 
+
+5. Ali - MVP features with highest importance Face detection/recognition 
+    recognition is pretty complex, there is still a lack of accuracy -
+     we need data based on the individual face, all of the faces 
+    
