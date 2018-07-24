@@ -18,12 +18,15 @@ from rest_framework import routers
 from django.urls import path, include
 from django.conf.urls import url
 from profiles import views
+from rest_framework.schemas import get_schema_view
 
+schema_view = get_schema_view(title='Pastebin API')
 router = routers.DefaultRouter()
 router.register(r'profiles', views.UserViewSet)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    url(r'^schema/$', schema_view),
     url(r'^', include(router.urls)),
     url(r'^api-auth/', include('rest_framework.urls', namespace='rest_framework'))
 ]
