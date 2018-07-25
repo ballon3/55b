@@ -3,10 +3,10 @@ from django.urls import path
 from django.conf.urls import url, include
 from rest_framework import routers
 
-from . import views
+from . import event_views
 
 urlpatterns = [
-    url(r'users/(?P<user_id>\w+)$', views.UserProfileView.as_view(), name='user_profile',),
+    url(r'event/(?P<event_id>\w+)$', event_views.EventView.as_view(), name='event_profile',),
     
     #path('', views.HomePageView.as_view(), name='home'),
 
